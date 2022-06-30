@@ -1,4 +1,3 @@
-from logging import PercentStyle
 from flask import (Blueprint, render_template)
 import json
 
