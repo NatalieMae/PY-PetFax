@@ -8,7 +8,7 @@ def index():
         print(request.form)
         return redirect('/facts')
 
-    return render_template('facts/index.html')
+    return render_template('index.html')
 
 @bp.route('/new')
 def new():
